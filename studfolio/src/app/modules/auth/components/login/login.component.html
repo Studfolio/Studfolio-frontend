@@ -1,0 +1,4 @@
+<p>login works!</p>
+<button mat-raised-button color="primary" (click)="this.auth()">Залогиниться</button>
+<button mat-raised-button color="accent" (click)="this.login()">Войти</button>
+<p>Статус авторизации: {{ this.authService.isAuthenticated }}</p>
